@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "app.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "Blinky",
+        "gboolean",
+        "gpointer",
+        "guint",
+        "halign",
+        "hexpand",
+        "keyval",
+        "Pacman"
+    ]
+}

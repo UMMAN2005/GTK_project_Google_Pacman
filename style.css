@@ -1,0 +1,12 @@
+.window {
+    background-color: black;
+}
+
+.label {
+    background-image: none;
+    background-color: darkgreen;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 20px;
+}
