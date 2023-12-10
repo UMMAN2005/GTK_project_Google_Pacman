@@ -198,7 +198,7 @@ void activate(GtkApplication *app, gpointer user_data) {
     clearScreen();
     printTitle();
     char info[256];
-    sprintf(info, "The source code can be found at:\nhttps://github.com/UMMAN2005/GTK-project_Google_Pacman\
+    sprintf(info, "The source code can be found at:\nhttps://github.com/UMMAN2005/GTK_project_Google_Pacman\
     \n\nIf you want to change the source code, please send a pull request.");
     showInfoDialog(info);
 
