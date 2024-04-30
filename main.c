@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     int status;
 
     // Create a new GTK application
-    app = gtk_application_new("org.example.move_square", G_APPLICATION_DEFAULT_FLAGS);
+    app = gtk_application_new("com.example.google_pacman", G_APPLICATION_DEFAULT_FLAGS);
     g_signal_connect(app, "activate", G_CALLBACK(activate), NULL);
 
     // Run the application

@@ -3,7 +3,7 @@
 enum Direction nextDirection;
 enum Direction requestedDirection;
 
-unsigned int stayedPoints = 276;
+unsigned int stayedPoints = 277;
 unsigned int totalPoints = 0;
 unsigned int currentLevel = 1;
 unsigned int timeout;
@@ -905,7 +905,7 @@ void moveClyde(Ghost *clyde, Square *pacman) {
 
 void draw_walls(cairo_t *cr, Wall *walls, int num_walls) {
     for (int i = 0; i < num_walls; i++) {
-        // Set the fill color for the walls
+        // Set the fill color for the walls/
         cairo_set_source_rgb(cr, 0, 0, 0);
         cairo_rectangle(cr, walls[i].x, walls[i].y, walls[i].width, walls[i].height);
         cairo_fill(cr);
@@ -941,10 +941,10 @@ void draw_figure(cairo_t *cr, void *figure) {
     time_t currentTime;
     time(&currentTime);
 
-    if (currentTime - activationTime >= 10 && currentTime - activationTime < 11) {
+    if (currentTime - activationTime >= 30 && currentTime - activationTime < 31) {
         addFruit(cr);
         points[0].isCollected = false;
-    } else if (currentTime - activationTime >= 25 && currentTime - activationTime < 26) {
+    } else if (currentTime - activationTime >= 45 && currentTime - activationTime < 46) {
         points[0].isCollected = true;
     }
 

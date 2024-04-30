@@ -24,7 +24,7 @@
 #define BORDER 4
 #define SPEED 10
 #define SELF_SPEED 50
-#define TURNING_TOLERANCE 40
+#define TURNING_TOLERANCE 80
 #define NUM_WALLS 53
 #define NUM_POINTS 277
 #define NUM_PORTALS 2
